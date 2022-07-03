@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design</title>
+  <link rel="stylesheet" type="text/css" href="fl.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gantari:wght@100;300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="animacao">
+<img src="meulogo.png" alt="image description" width="200" class="center"/>
+</div>
+
+<div class="topnav" id="myTopnav">
+  <div class="topnavin">
+  <a href="index.html">Home</a>
+  <a href="about_v2.html">About Me</a>
+  <a href="design.html">Design</a>
+  <a href="fotografia.html">Photography</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<div class="flex-container">
+
+  <div class="box1"> 
+    <img src="fl.png" width="300">
+  </div>
+  <div class="box2">
+PORTO BOOK FAIR<br>
+<br>
+This project arose in the curricular unit of Communication Design I in the 1st year of the degree, and was based on the creation of a poster to advertise the book fair of that same year. 
+The creation of this poster was a bit of a challenge because it was the first poster I had ever made.
+  </div>
+
+</div>
+
+</body>
+</html>
